@@ -1,0 +1,12 @@
+<litepal>
+    <dbname value="GERD_Helper" />    <!-- 数据库名  -->
+
+    <version value="1" />    <!-- 数据库版本  -->
+
+    <list>          <!-- 映射表  -->
+        <mapping class="com.example.daisy.gerdhelper.db.Account" />    <!-- 实体类加入映射表  -->
+        <mapping class="com.example.daisy.gerdhelper.db.PatientInfo" />
+        <mapping class="com.example.daisy.gerdhelper.db.DoctorInfo" />
+    </list>
+
+</litepal>
